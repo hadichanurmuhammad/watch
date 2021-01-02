@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 43 43" width="43" height="43">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M-1546 -39L374 -39L374 7302L-1546 7302Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ffb79b } 
+		.shp1 { fill: none } 
+		.shp2 { fill: #000000 } 
+	</style>
+	<g id="Web 1920 – 1" clip-path="url(#cp1)">
+		<g id="Group 7">
+			<path id="Rectangle 5" class="shp0" d="M0 0L43 0L43 43L0 43L0 0Z" />
+			<g id="favorite-24px">
+				<path id="Path 1" class="shp1" d="M2 2L40.17 2L40.17 40.17L2 40.17L2 2Z" />
+				<path id="Path 2" class="shp2" d="M21.08 35.95L18.78 33.85C10.59 26.43 5.18 21.53 5.18 15.52C5.18 10.62 9.03 6.77 13.93 6.77C16.69 6.77 19.35 8.06 21.08 10.09C22.82 8.06 25.47 6.77 28.24 6.77C33.14 6.77 36.99 10.62 36.99 15.52C36.99 21.53 31.58 26.43 23.39 33.87L21.08 35.95Z" />
+			</g>
+		</g>
+	</g>
+</svg>
