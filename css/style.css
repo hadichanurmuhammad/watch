@@ -1,0 +1,241 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand{
+	font-size: 35px;
+	background-image: url("../img/2.svg");
+	background-size: 110px;
+	background-repeat: no-repeat;
+	background-position: 0 10px;
+} 
+
+.navbar-nav{
+	margin: 0 auto;
+}
+
+.navbar{
+	background-color: #a15b40;
+}
+
+.images{
+	transform: translateX(100%);
+}
+
+.main-button{
+	background-color: #ffb79b;
+}
+
+.main-title{
+	font-weight: bold;
+	font-size: 80px;
+}
+
+.main-subtext{
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.main{
+	background-color: #000;
+	height: 85vh;
+	background-image: url("../img/rolex-submariner-126610ln-watch-black-dial-1602052589.png");
+	background-repeat: no-repeat;
+	background-size: 400px;
+	background-position: 700px 50px;
+}
+
+.watch-subtext{
+	padding-top: 20px;
+	width: 40%;
+}
+
+.button{
+	margin-right: 30%;
+}
+
+.watch-img{
+	top: -150px;
+	filter: drop-shadow(9.192px 9.192px 10px #000);
+}
+
+.subtext > button{
+	background-color: #753b00;
+}
+
+.card-title{
+	font-size: 20px;
+}
+
+.card-image{
+	margin-left: 40%;
+	width: 70%;
+}
+
+.stars{
+	width: 20px;
+	margin: 0;
+	object-fit: cover;
+}
+
+.cards-subtext{
+	font-size: 10px;
+	line-height: 1;
+	width: 150px;
+	margin: 0;
+}
+
+.card-price > strong{
+	color: #ff6529;
+	font-size: 14px;
+}
+
+.card-price{
+	font-size: 10px;
+}
+
+.card-data{
+	font-size: 10px
+}
+
+.card{
+	margin: 30px;
+	padding-top: 20px;
+	width: 320px;
+	height: 350px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	overflow: hidden;
+}
+
+.card:hover{
+	transform: translateY(-50px);
+	transition: 0.5s;
+}
+
+.dots{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dot{
+	width: 10px;
+	height: 10px;
+	background-color: #ffb79b;
+	display: block;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.active{
+	background-color: #f64500;
+}
+
+.dot:hover{
+	background-color: #f64500;
+	width: 15px;
+	height: 15px;
+}
+
+.info{
+	top: 200px;
+	margin-left: 20px;
+}
+
+@media(max-width: 990px){
+	.images{
+		transform: translateX(0);
+	}
+
+	.watch > .container{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.watch-img{
+		top: 0;
+		position: unset;
+	}
+
+	.cards{
+
+	}
+}
+
+@media(max-width: 1095px){
+	.main{
+		background-position: 500px 50px;
+		background-size: 300px;
+	}
+}
+
+@media(max-width: 804px){
+	.main{
+		background-position: 400px 50px;
+		background-size: 300px;
+	}
+}
+
+@media(max-width: 702px){
+	.main{
+		background-position: 350px 50px;
+		background-size: 300px;
+	}
+}
+
+@media(max-width: 650px){
+	.main{
+		background-position: 300px 50px;
+		background-size: 300px;
+	}
+
+	.input-group{
+		width: 100% !important;
+	}
+}
+
+@media(max-width: 592px){
+	.main{
+		background-position: 250px 50px;
+		background-size: 300px;
+	}
+
+	.watch-img{
+		display: none;
+	}
+
+	.watch-subtext{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media(max-width: 546px){
+	.main{
+		background-image: none;
+	}
+
+	.main-title{
+		text-align: center;
+	}
+
+	.main-subtext{
+		text-align: center;
+	}
+
+	.main-button{
+		display: block;
+		margin: 0 auto;
+	}
+}

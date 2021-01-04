@@ -4,8 +4,125 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	
-</body>
-</html>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Watch</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link text-light" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" aria-current="page" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" aria-current="page" href="#">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" aria-current="page" href="#">Blog</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-light" aria-current="page" href="#">Contact</a>
+					</li>
+					<div class="images">
+						<img src="img/Group 8.svg" alt="contact img" class="nav-image m-1">
+						<img src="img/Group 7.svg" alt="heart img" class="nav-image m-1">
+						<img src="img/Group 6.svg" alt="shop img" class="nav-image m-1">
+					</div>
+				</div>
+			</nav>
+			<main class="main text-light">
+				<div class="container">
+					<h1 class="main-title pt-5">Brand <br> Watch</h1>
+					<p class="main-subtext">__UP TO 40% OFF__</p>
+					<button class="btn main-button btn-light" type="button">Shop now</button>
+				</div>
+			</main>
+			<section class="watch bg-dark position-relative">
+				<div class="container">
+					<img class="w-50 watch-img position-absolute" src="img/craig-mclachlan-nOhRrpADKXk-unsplash(2).png" alt="">
+					<div class="subtext d-flex flex-column align-items-end">
+						<p class="watch-subtext text-light">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. </p>
+						<button class="btn btn-light button" type="button">View details</button>
+					</div>
+					<div class="input-group mb-5 m-auto w-50 mt-5">
+						<input type="text" class="form-control btn-outline-danger btn-light" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+						<button class="btn btn-outline-danger btn-light" type="button" id="button-addon2">Button</button>
+					</div>
+					<div class="cards d-flex justify-content-center pt-5 flex-wrap flex-lg-nowrap">
+						<div class="card">
+							<div class="card-right w-100 h-100 d-flex">
+								<img class="card-image position-relative" src="img/4.png" alt="">
+								<div class="info d-flex flex-column position-absolute">
+									<h1 class="card-title">Band Watch</h1>
+									<p class="cards-subtext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+									<div class="star d-flex">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									</div>
+									<data class="card-data">02 January-2021</data>
+									<p class="card-price text-muted">$215.99 <strong>$180.99</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-right w-100 h-100 d-flex">
+								<img class="card-image position-relative" src="img/5(1).png" alt="">
+								<div class="info d-flex flex-column position-absolute">
+									<h1 class="card-title">Band Watch</h1>
+									<p class="cards-subtext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+									<div class="star d-flex">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									</div>
+									<data class="card-data">02 January-2021</data>
+									<p class="card-price text-muted">$215.99 <strong>$180.99</strong></p>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-right w-100 h-100 d-flex">
+								<img class="card-image position-relative" src="img/3.png" alt="">
+								<div class="info d-flex flex-column position-absolute">
+									<h1 class="card-title">Band Watch</h1>
+									<p class="cards-subtext">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt</p>
+									<div class="star d-flex">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									<img class="stars" src="img/Polygon 2.svg" alt="">
+									</div>
+									<data class="card-data">02 January-2021</data>
+									<p class="card-price text-muted">$215.99 <strong>$180.99</strong></p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="dots mt-4">
+							<span class="dot active"></span>
+							<span class="dot"></span>
+							<span class="dot"></span>
+						</div>
+				</div>
+			</section>
+
+
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+		</body>
+		</html>
