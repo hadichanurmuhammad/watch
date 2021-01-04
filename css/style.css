@@ -129,6 +129,13 @@ body{
 	align-items: center;
 }
 
+.col{
+	background-image: url("../img/Rectangle 21.svg");
+	background-position: 50% 100%;
+	background-repeat: no-repeat;
+	background-size: 350px;
+}
+
 .dot{
 	width: 10px;
 	height: 10px;
@@ -148,9 +155,19 @@ body{
 	height: 15px;
 }
 
+.col-img{
+	margin: 0 auto;
+	display: flex;
+	width: 200px;
+}
+
 .info{
 	top: 200px;
 	margin-left: 20px;
+}
+
+.col{
+	border: 0.1px solid white;
 }
 
 @media(max-width: 990px){
